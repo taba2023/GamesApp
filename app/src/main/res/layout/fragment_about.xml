@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/del"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:gravity="center"
+        android:text="About GamesApp "
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="8"
+        android:textStyle="bold"
+        android:textSize="35sp" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="414dp"
+        android:layout_height="722dp"
+        android:gravity="center"
+        android:text="Our mission at GamesApp is to provide gamers with a diverse and exciting gaming experience. We believe that gaming is not just a pastime; it's a way of life. Our platform offers a carefully curated selection of the latest and greatest video games across all genres."
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="600dp"
+        android:textColor="@color/yellow"
+        android:text="Call us today!"
+        android:textSize="20dp">
+
+    </Button>
+
+
+
+
+
+
+
+    </FrameLayout>

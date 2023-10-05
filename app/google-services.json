@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "538361168461",
+    "firebase_url": "https://gameapp-906b1-default-rtdb.firebaseio.com",
+    "project_id": "gameapp-906b1",
+    "storage_bucket": "gameapp-906b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538361168461:android:41eea2b1eaaa262c1e5204",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaMYTiK4dn5NE5yiI7qZL0Lt7I0VWNBxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

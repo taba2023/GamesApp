@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Games App </string>
+    <string name="open_nav"> Open Navigation Drawer</string>
+    <string name="close_nav">close Navigation Drawer</string>
+    <string name="email">Email</string>
+    <string name="give_us_a_call_today">Give us a Call Today For More Games</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Congratulations_your_order_is_on_the_way"></string>
+</resources>

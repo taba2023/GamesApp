@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new1"
+    tools:context=".HomeFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome to GamesApp"
+        android:paddingBottom="450dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="8"
+        android:gravity="center"/>
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="31dp"
+
+        android:layout_marginTop="250dp"
+        android:background="@drawable/games_app"
+
+       />
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:backgroundTint="@color/blue"
+        android:layout_gravity="bottom"
+        android:paddingTop="10dp"
+        android:text="Login"
+        android:textColor="@color/yellow"
+        android:textSize="20sp" />
+
+</FrameLayout>

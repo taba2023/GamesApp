@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/new2"
+
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/del"
+        android:padding="15dp"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageItem1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/fifa" />
+
+        <TextView
+            android:id="@+id/textViewItem1"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="5dp"
+            android:text="FIFA 2023 : $70"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextItem1"
+            android:textColor="@color/white"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textViewItem1"
+            android:layout_marginTop="83dp"
+            android:textSize="25dp"
+            android:hint="Qty"
+            android:textColorHint="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:inputType="number" />
+
+        <ImageView
+            android:id="@+id/imageItem2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/call"
+            />
+
+        <TextView
+            android:id="@+id/textViewItem2"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="120dp"
+            android:text="Call of Duty : $90"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextItem2"
+            android:textColor="@color/yellow"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@+id/textViewItem1"
+            android:layout_marginTop="279dp"
+            android:layout_marginLeft="45dp"
+            android:textSize="25dp"
+            android:hint="Qty"
+            android:textColorHint="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:inputType="number" />
+
+
+        <ImageView
+            android:id="@+id/imageItem3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="400dp"
+            android:src="@drawable/turismo"
+            />
+
+        <TextView
+            android:id="@+id/textViewItem3"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="120dp"
+            android:text="Gran Turismo : $80"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextItem3"
+            android:textColor="@color/yellow"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@+id/textViewItem1"
+            android:layout_marginTop="477dp"
+            android:layout_marginLeft="45dp"
+            android:textSize="25dp"
+            android:hint="Qty"
+            android:textColorHint="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:inputType="number" />
+
+        <ImageView
+            android:id="@+id/imageItem4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/fight"
+            />
+
+        <TextView
+            android:id="@+id/textViewItem4"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="120dp"
+            android:text="Mortal Kombat : $60"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextItem4"
+            android:textColor="@color/white"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@+id/textViewItem1"
+            android:layout_marginTop="679dp"
+            android:layout_marginLeft="45dp"
+            android:textSize="25dp"
+            android:hint="Qty"
+            android:textColorHint="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:inputType="number" />
+
+
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/buttonPlaceOrder"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/blue"
+            android:textStyle="bold"
+            android:textColor="@color/yellow"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="900dp"
+            android:text="Place Order" />
+
+        <TextView
+            android:id="@+id/textViewTotal"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="850dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="Total: $0"
+            android:textSize="20sp" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
